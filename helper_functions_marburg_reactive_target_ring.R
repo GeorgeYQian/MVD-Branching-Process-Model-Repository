@@ -72,7 +72,7 @@ draw_R_reactive_target_ring <- function(n,
   
   ## Add effect of HCW vaccination (at targeted vaccination efficacy)
   out[vaccinated_HCW] <- out[vaccinated_HCW] *
-    (1 - vaccination_efficacy_target[vaccinated_HCW])
+    (1 - vaccination_efficacy_target[vaccinated_HCW]) 
   
   
   # Add effects of ring vaccination (contacts and contacts of contacts)
