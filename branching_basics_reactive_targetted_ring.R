@@ -2,7 +2,7 @@
 
 # A branching process simulator that incorporates reactive targeted vaccination 
 # of high risk groups (e.g. miners), as well as ring vaccination of contacts
-
+ 
 # George Qian 2022 - MIT License
 
 
