@@ -7,7 +7,7 @@
 # Libraries required for graphs
 library(tidyverse)
 library(cowplot)
-library(incidence2)
+library(incidence2) 
 source("CI_prop_binomial.R")
 
 # Load in the posterior distribution
