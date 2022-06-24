@@ -4,7 +4,7 @@
 # A branching process simulator that incorporates reactive mass vaccination
 
 # George Qian 2022 - MIT License
-
+ 
 
 # ------------
 # Requirements
