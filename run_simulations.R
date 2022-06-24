@@ -18,12 +18,11 @@ sampled_post %>%
   tibble() %>%
   mutate(R_before = R_basic,
          R_after = R_before * (1 - intervention_efficacy)) %>% 
-  ggplot(aes(x = R_before, y = R_after)) + #geom_point() +  
-  geom_density_2d_filled() # + 
-# lims(x = c(0, 2), y = c(0, 2))
+  ggplot(aes(x = R_before, y = R_after)) + 
+  geom_density_2d_filled()
 
 ## Define parameters that stay constant for all simulations
-n_sims <- 500 # 1000
+n_sims <-  1000
 
 # Specify the serial interval mean and s.d.
 SI_mean <- 9.2
