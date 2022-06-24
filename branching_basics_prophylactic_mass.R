@@ -3,7 +3,7 @@
 
 # A branching process simulator that incorporates mass vaccination of 
 
-# Thibaut Jombart 2021 - MIT License
+# George Qian 2022 - MIT License
 
 
 # ------------
