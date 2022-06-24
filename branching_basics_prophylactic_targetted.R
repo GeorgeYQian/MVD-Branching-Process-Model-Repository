@@ -29,7 +29,7 @@ library(tidyverse) # total overkill, we merely use tibble and dplyr
 # 1. R_undetected, the basic reproduction number when a case is undetected
 #
 # 2. intervention_efficacy, the prop reduction of R when cases detected
-#
+# 
 # 3. serial_interval, a distcrete object representing the serial interval
 #    Use the 'make_disc_gamma' function to create this object
 #
