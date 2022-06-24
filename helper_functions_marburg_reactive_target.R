@@ -40,7 +40,7 @@ draw_R_reactive_target <- function(n,
     prob = c(vaccination_coverage, (1 - vaccination_coverage)),
     replace = TRUE
   )
-  
+   
   ## Make sure there are no vaccinations in cases who are not introductions
   vaccinated[!is_intro] <- FALSE
   
