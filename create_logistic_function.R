@@ -112,6 +112,4 @@ make_logistic  <-  function(n_draws = 1,
   vacc_eff <- pmin(1, eff_dist[day_draw, 2])
   
   return(vacc_eff)
-  
-  
 }
