@@ -34,4 +34,4 @@ make_disc_gamma <- function(mean, sd) {
                        w = 0,
                        shape = params$shape,
                        scale = params$scale)
-}
+} 
