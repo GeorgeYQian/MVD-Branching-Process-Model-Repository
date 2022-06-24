@@ -3,7 +3,7 @@
 # -------
 # These are small functions to avoid repetitive code in the simulation
 
-# Draw individual R based on group values and frequencies
+# Draw individual R based on group values and frequencies 
 # n: number of R values to draw
 # date_onset: a vector of length n of dates of onset
 # R_basic: a single value of R, before intervention
