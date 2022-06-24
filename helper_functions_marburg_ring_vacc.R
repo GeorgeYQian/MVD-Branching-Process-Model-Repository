@@ -29,7 +29,7 @@ draw_R_ring <- function(n,
   # Add the effect of intervention
   after_intervention <- date_onset > break_point
   out[after_intervention] <-  out[after_intervention] * (1 - intervention_efficacy)
-  
+   
   # Determine who is vaccinated
   vaccinated <- sample(
     c(TRUE, FALSE),
