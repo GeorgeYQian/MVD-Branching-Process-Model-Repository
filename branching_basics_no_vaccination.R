@@ -131,7 +131,7 @@ branching_process_model_no_vacc <- function(R_basic = 1.2,
     # Step 1
     lambda_i <- out$R * serial_interval$d(t - out$date_onset)
     force_infection <- sum(lambda_i)
-    
+     
     # Step 2
     n_new_cases <- rpois(1, lambda = force_infection)
     
