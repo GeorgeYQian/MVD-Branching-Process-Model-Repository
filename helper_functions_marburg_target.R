@@ -1,4 +1,4 @@
-# -------
+# ------- 
 # Helpers
 # -------
 # These are small functions to avoid repetitive code in the simulation
