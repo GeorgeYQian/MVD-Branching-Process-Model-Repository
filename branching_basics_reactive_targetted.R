@@ -11,7 +11,7 @@
 
 # Note: these should ultimately be better handled through a package structure
 # etc.
-
+ 
 # Required packages
 library(distcrete)
 library(epitrix)
